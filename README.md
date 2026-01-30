@@ -39,3 +39,18 @@ Este repositorio incluye:
    ```bash
    git push -u origin main
 
+
+## Adaptación a Programación Orientada a Objetos (POO)
+
+El dashboard del proyecto fue adaptado siguiendo los principios de la 
+Programación Orientada a Objetos, con el objetivo de mejorar la organización, 
+mantenibilidad y reutilización del código.
+
+Para ello, se creó la clase `ScriptManager`, la cual se encarga de gestionar 
+las funcionalidades relacionadas con la visualización y ejecución de scripts. 
+Esta clase encapsula las operaciones principales, permitiendo una separación 
+clara de responsabilidades y un código más estructurado.
+
+Gracias a esta adaptación, el proyecto pasa de un enfoque procedural a uno 
+orientado a objetos, facilitando futuras ampliaciones y el mantenimiento del 
+sistema.
