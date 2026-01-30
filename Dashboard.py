@@ -122,6 +122,7 @@ def mostrar_scripts(ruta_sub_carpeta):
                 eleccion_script = int(eleccion_script) - 1
                 if 0 <= eleccion_script < len(scripts):
                     ruta_script = os.path.join(ruta_sub_carpeta, scripts[eleccion_script])
+                    manager = ScriptManager()  #crea objeto
                     codigo = mostrar_codigo(ruta_script)
                     if codigo:
                         ejecutar = input("¿Desea ejecutar el script? (1: Sí, 0: No): ")
