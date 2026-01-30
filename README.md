@@ -43,7 +43,7 @@ Este repositorio incluye:
 ## Adaptación a Programación Orientada a Objetos (POO)
 
 El dashboard del proyecto fue adaptado siguiendo los principios de la 
-Programación Orientada a Objetos, con el objetivo de mejorar la organización, 
+Programación Orientada a Objetos (POO), con el objetivo de mejorar la organización, 
 mantenibilidad y reutilización del código.
 
 Para ello, se creó la clase `ScriptManager`, la cual se encarga de gestionar 
@@ -51,6 +51,13 @@ las funcionalidades relacionadas con la visualización y ejecución de scripts.
 Esta clase encapsula las operaciones principales, permitiendo una separación 
 clara de responsabilidades y un código más estructurado.
 
+Además, se implementó la clase `Dashboard`, la cual centraliza el inicio del 
+sistema y el flujo principal del programa, reforzando el uso de objetos dentro 
+de la aplicación.
+
 Gracias a esta adaptación, el proyecto pasa de un enfoque procedural a uno 
 orientado a objetos, facilitando futuras ampliaciones y el mantenimiento del 
-sistema.
+sistema.ipts, mejorando la organización, reutilización y mantenimiento del código.
+
+SALUDOS CORDIALES,
+ANA PANCHI
