@@ -17,6 +17,17 @@ class ScriptManager:
         # Llama a la función que ejecuta el script seleccionado
         ejecutar_codigo(ruta_script)
 
+# Clase Dashboard
+# Esta clase representa el panel principal
+# del sistema y sirve como punto de inicio
+class Dashboard:
+    """Clase que encapsula el funcionamiento del dashboard"""
+
+    def iniciar(self):
+        # Inicia el menú principal del dashboard
+        mostrar_menu()
+
+
 def mostrar_codigo(ruta_script):
     # Asegúrate de que la ruta al script es absoluta
     ruta_script_absoluta = os.path.abspath(ruta_script)
