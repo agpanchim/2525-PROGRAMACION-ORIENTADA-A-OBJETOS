@@ -140,5 +140,8 @@ def mostrar_scripts(ruta_sub_carpeta):
 
 # Ejecutar el dashboard
 if __name__ == "__main__":
-    mostrar_menu()
+    # Uso de clase dashboard
+    dashboard = Dashboard()
+    dashboard.iniciar()
+
 
