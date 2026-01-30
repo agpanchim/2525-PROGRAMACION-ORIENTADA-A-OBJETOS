@@ -1,13 +1,20 @@
 import os
 import subprocess
 
+# Clase ScriptManager
+# Esta clase se encarga de manejar
+# las acciones relacionadas con los scripts:
+# mostrar su código y ejecutarlos
+
 class ScriptManager:
     """Clase encargada de mostrar y ejecutar scripts"""
 
     def mostrar_codigo(self, ruta_script):
+        # Llama a la función que muestra el código del script
         return mostrar_codigo(ruta_script)
 
     def ejecutar_codigo(self, ruta_script):
+        # Llama a la función que ejecuta el script seleccionado
         ejecutar_codigo(ruta_script)
 
 def mostrar_codigo(ruta_script):
