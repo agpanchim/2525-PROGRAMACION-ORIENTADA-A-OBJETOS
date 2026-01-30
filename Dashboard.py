@@ -127,7 +127,7 @@ def mostrar_scripts(ruta_sub_carpeta):
                     if codigo:
                         ejecutar = input("¿Desea ejecutar el script? (1: Sí, 0: No): ")
                         if ejecutar == '1':
-                            ejecutar_codigo(ruta_script)
+                            manager.ejecutar_codigo(ruta_script)
                         elif ejecutar == '0':
                             print("No se ejecutó el script.")
                         else:
