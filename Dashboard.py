@@ -1,6 +1,15 @@
 import os
 import subprocess
 
+class ScriptManager:
+    """Clase encargada de mostrar y ejecutar scripts"""
+
+    def mostrar_codigo(self, ruta_script):
+        return mostrar_codigo(ruta_script)
+
+    def ejecutar_codigo(self, ruta_script):
+        ejecutar_codigo(ruta_script)
+
 def mostrar_codigo(ruta_script):
     # Asegúrate de que la ruta al script es absoluta
     ruta_script_absoluta = os.path.abspath(ruta_script)
